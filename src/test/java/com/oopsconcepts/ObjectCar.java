@@ -45,5 +45,8 @@ public class ObjectCar {
         c.mod = "BMW-X9";
         System.out.println(c.mod);
         System.out.println(a.mod);
+
+        int staticvariablefromanotherclass = StaticAndNonStaticConcept.age;
+        System.out.println("from another class: "+ staticvariablefromanotherclass);
     }//main
 }//class

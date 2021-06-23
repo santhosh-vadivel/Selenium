@@ -17,7 +17,6 @@ public class FunctionsInJava {
         System.out.println(div);
     }//main
 
-
     //non static methods
 
     public void test(){ //no input, no output

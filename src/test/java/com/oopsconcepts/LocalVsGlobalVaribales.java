@@ -3,9 +3,12 @@ package com.oopsconcepts;
 public class LocalVsGlobalVaribales {
     
     String name = "Santhosh"; //global scope
+    //static int i = 10; //global scope
     int i = 10; //global scope
 
+
     public static void main(String[] args){
+        //System.out.println("static int i is:" +LocalVsGlobalVaribales.i); // calling static variables using class name inside the same pckage.
         int i = 10;
         System.out.println("Value of i inside main method: " +i);
 
